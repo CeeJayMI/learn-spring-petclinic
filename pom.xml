@@ -48,7 +48,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:https://github.com/CeeJayMI/learn-spring-petclinic.git
+        <developerConnection>scm:git:https://github.com/CeeJayMI/learn-spring-petclinic.git
         </developerConnection>
       <tag>learn-spring-petclinic-0.0.1</tag>
   </scm>
