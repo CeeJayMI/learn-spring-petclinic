@@ -1,11 +1,11 @@
 package com.jonathanslaven.learnspringpetclinic.services.map;
 
 import com.jonathanslaven.learnspringpetclinic.model.Vet;
-import com.jonathanslaven.learnspringpetclinic.services.CrudService;
+import com.jonathanslaven.learnspringpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 
     @Override

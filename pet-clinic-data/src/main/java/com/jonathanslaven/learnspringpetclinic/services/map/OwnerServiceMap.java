@@ -1,11 +1,11 @@
 package com.jonathanslaven.learnspringpetclinic.services.map;
 
 import com.jonathanslaven.learnspringpetclinic.model.Owner;
-import com.jonathanslaven.learnspringpetclinic.services.CrudService;
+import com.jonathanslaven.learnspringpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
     @Override
@@ -31,5 +31,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
