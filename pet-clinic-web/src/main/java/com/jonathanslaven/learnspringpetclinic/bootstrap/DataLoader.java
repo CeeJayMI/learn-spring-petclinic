@@ -41,13 +41,13 @@ public class DataLoader implements CommandLineRunner {
         Vet vet1 = new Vet();
         vet1.setId(1L);
         vet1.setFirstName("Anna");
-        vet1.setFirstName("Mary");
+        vet1.setLastName("Mary");
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
         vet2.setId(2L);
         vet2.setFirstName("Laura");
-        vet2.setFirstName("Linton");
+        vet2.setLastName("Linton");
         vetService.save(vet2);
 
         System.out.println("Finished bootstrapping data");
